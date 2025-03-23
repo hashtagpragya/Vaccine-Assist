@@ -1,0 +1,92 @@
+button {
+  border: 1px solid #0066cc;
+  background-color: black;
+  color: #ffffff;
+  padding: 5px 10px;
+  width: 500px;
+  border-radius: 25px;
+}
+
+button:hover {
+  border: 1px solid #0099cc;
+  background-color: black;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 25px;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  padding: 5px 10px;
+  color: #666666;
+}
+
+div {
+  padding: 5px 10px;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+*{
+ margin:0;
+ padding: 0;
+ outline: 0;
+}
+.filter{
+ position: absolute;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ z-index: 1;
+background-image: linear-gradient(0deg, #1f7eaad9 0%, #f1efecf8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e94ca1",endColorstr="#c74ae9",GradientType=1);
+opacity: .7;
+}
+table{
+ position: absolute;
+ z-index: 2;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ width: 60%; 
+ border-collapse: collapse;
+ border-spacing: 0;
+ box-shadow: 0 2px 15px rgba(64,64,64,.7);
+ border-radius: 12px 12px 0 0;
+ overflow: hidden;
+
+}
+i {
+  font-size: xx-large;
+}
+td , th{
+ padding: 15px 20px;
+ text-align: center;
+}
+th{
+ background-color: #1f7eaad9;
+ color: #fafafa;
+ font-family: 'Open Sans',Sans-serif;
+ font-weight: 200;
+ text-transform: uppercase;
+
+}
+tr{
+ width: 100%;
+ background-color: #fafafa;
+ font-family: 'Montserrat', sans-serif;
+}
+tr:nth-child(even){
+ background-color: #eeeeee;
+}
+li {
+  list-style-type: none;
+}  
+.last {
+box-shadow: 0 2px 15px rgba(64,64,64,.7);
+border-radius: 25px;
+}
+tfoot {
+border-radius: 25px;
+}

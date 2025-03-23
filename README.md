@@ -1,1 +1,2 @@
-# Vaccine-Assist
+# Vaccine-assist
+Visit here: https://vaccinespotter.herokuapp.com/ 
